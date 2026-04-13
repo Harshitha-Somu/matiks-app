@@ -1,4 +1,6 @@
 🎮 Matiks – Game Result Screen Experience  
+📱 APK Download:
+https://expo.dev/accounts/harshitha_somu/projects/MatiksUI/builds/e3cb32a0-a214-4cf8-ae0e-4eef6c6f0877
 
 Matiks is a modern, animation-rich game result screen built using React Native (Expo).  
 It transforms a simple score display into an engaging and immersive experience with dynamic animations, particle effects, and interactive UI elements ✨
