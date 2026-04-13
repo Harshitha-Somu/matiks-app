@@ -1,50 +1,107 @@
-# Welcome to your Expo app 👋
+🎮 Matiks – Game Result Screen Experience  
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Matiks is a modern, animation-rich game result screen built using React Native (Expo).  
+It transforms a simple score display into an engaging and immersive experience with dynamic animations, particle effects, and interactive UI elements ✨
 
-## Get started
+---
 
-1. Install dependencies
+🎯 Overview  
+Traditional result screens only show numbers.  
+Matiks enhances that experience by combining motion, feedback, and visual design to create a **real game-like victory screen**.
 
-   ```bash
-   npm install
-   ```
+It focuses on smooth animations, celebratory effects, and clean UI to make results feel rewarding and exciting.
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+✨ Features  
 
-In the output, you'll find options to open the app in a
+🔢 Animated Score System  
+Smooth score counting animation  
+Overshoot + settle effect for realism  
+Responsive and visually engaging  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+🎉 Confetti & Particle Effects  
+Multi-directional particle animations  
+Corner-based blasts (top-right & bottom-left)  
+Continuous celebration synced with score  
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+🔥 Combo Streak UI  
+Animated combo badge with highlight  
+Flame effect for dynamic feedback  
+Smooth entry animations  
 
-## Get a fresh project
+🏆 Rank & Rewards Display  
+Player ranking with animation  
+Coins and time display  
+Delayed reveal for better UX  
 
-When you're ready, run:
+🎮 Interactive Actions  
+Share result functionality  
+“Play Again” and “How to Improve” buttons  
+Haptic feedback (on supported devices)  
 
-```bash
-npm run reset-project
-```
+🎬 Smooth Animations  
+Micro-interactions across UI  
+Reanimated-powered performance  
+Shimmer button effect  
+Fluid transitions and motion  
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+🛠️ Tech Stack  
 
-To learn more about developing your project with Expo, look at the following resources:
+⚛️ React Native (Expo)  
+🎬 React Native Reanimated  
+📱 Expo APIs (Haptics, Share)  
+🎯 JavaScript / TypeScript  
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+🚀 Getting Started  
 
-Join our community of developers creating universal apps.
+1️⃣ Install dependencies  
+npm install  
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+2️⃣ Run the app  
+npx expo start  
+
+3️⃣ Run on device  
+Scan QR using Expo Go  
+
+---
+
+📁 Project Structure  
+
+app/  
+├── index.tsx            # Main result screen  
+├── components/          # UI components  
+└── assets/              # Images and resources  
+
+---
+
+💡 Design Highlights  
+
+Modern game-inspired UI  
+Clean typography and spacing  
+Animated feedback for every action  
+Balanced color palette with dark theme  
+High-performance animations  
+
+---
+
+📌 Notes  
+
+Particle animations are custom-built using Reanimated  
+UI inspired by real gaming result screens  
+Fully frontend application (no backend required)  
+
+---
+
+👩‍💻 Author  
+Harshitha Somu  
+
+---
+
+✨ Final Thought  
+
+“Results shouldn’t just be seen — they should be felt.” 🎮🔥
