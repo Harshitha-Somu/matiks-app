@@ -396,11 +396,11 @@ const styles = StyleSheet.create({
   combo: { color: '#fbbf24' },
   flame: { fontSize: 24 },
 
-  rank: { marginTop: 20, color: '#22c55e' },
+  rank: { marginTop: 20, color: '#14b8a6' },
 
   mainBtn: {
     marginTop: 30,
-    backgroundColor: '#22c55e',
+    backgroundColor: '#14b8a6',
     padding: 16,
     borderRadius: 12,
     overflow: 'hidden',
