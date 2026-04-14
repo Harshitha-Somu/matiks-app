@@ -1,109 +1,74 @@
-🎮 Matiks – Game Result Screen Experience  
+🎮 BrainBlitz – Interactive Game Experience
+
 📱 APK Download:
-https://expo.dev/accounts/harshitha_somu/projects/MatiksUI/builds/e3cb32a0-a214-4cf8-ae0e-4eef6c6f0877
+https://expo.dev/accounts/harshitha_somu/projects/MatiksUI/builds/1e916b54-402b-4020-9979-783b37ae191a
 
-Matiks is a modern, animation-rich game result screen built using React Native (Expo).  
-It transforms a simple score display into an engaging and immersive experience with dynamic animations, particle effects, and interactive UI elements ✨
+🎯 Overview
 
----
+BrainBlitz is a modern, interactive mobile game application built using React Native (Expo).
+It delivers a complete gameplay experience — from user interaction and scoring to an immersive animated result screen.
 
-🎯 Overview  
-Traditional result screens only show numbers.  
-Matiks enhances that experience by combining motion, feedback, and visual design to create a **real game-like victory screen**.
+The app focuses on engagement, responsiveness, and real-time feedback, combining gameplay logic with smooth animations and intuitive UI design.
 
-It focuses on smooth animations, celebratory effects, and clean UI to make results feel rewarding and exciting.
+🎮 Core Gameplay
+Interactive game flow with real-time user input
+Score generation based on player performance
+Timer-based mechanics to simulate fast-paced gameplay
+Immediate feedback to enhance user engagement
+✨ Key Features
+🧠 Game Logic & Interaction
+Dynamic gameplay with real-time updates
+Efficient state management for smooth performance
+Optimized user interactions and transitions
+🔢 Animated Score System
+Smooth score counting with overshoot effects
+Real-time updates based on gameplay
+🎉 Visual Effects & Feedback
+Confetti and particle animations for achievements
+Combo streak indicators with dynamic UI feedback
+🏆 Results & Performance Screen
+Animated rank and reward display
+Coins, score, and time tracking
+Staggered animations for enhanced UX
+🎮 Interactive Controls
+“Play Again” and navigation actions
+Share functionality
+Haptic feedback integration
+🎬 Advanced Animations
+Built using React Native Reanimated
+Micro-interactions and fluid transitions
+High-performance animation handling
+🛠️ Tech Stack
+React Native (Expo)
+React Native Reanimated
+Expo APIs (Haptics, Share)
+JavaScript / TypeScript
+🚀 Getting Started
+npm install
+npx expo start
 
----
+Run on a real device using Expo Go for the best experience.
 
-✨ Features  
+📁 Project Structure
+app/
+├── index.tsx        # Main game logic & UI
+├── components/      # Reusable UI components
+├── screens/         # Game & result screens
+└── assets/          # Images and resources
+💡 Design Highlights
+Game-inspired UI with smooth transitions
+Real-time feedback for every interaction
+Clean and responsive layout
+Dark theme with modern visual aesthetics
+Optimized for performance and scalability
+📌 Notes
+Custom animations built using Reanimated
+Designed to simulate real-world mobile gaming experience
+Fully frontend application (no backend dependency)
+👩‍💻 Author
 
-🔢 Animated Score System  
-Smooth score counting animation  
-Overshoot + settle effect for realism  
-Responsive and visually engaging  
+Harshitha Somu
 
-🎉 Confetti & Particle Effects  
-Multi-directional particle animations  
-Corner-based blasts (top-right & bottom-left)  
-Continuous celebration synced with score  
+✨ Final Thought
 
-🔥 Combo Streak UI  
-Animated combo badge with highlight  
-Flame effect for dynamic feedback  
-Smooth entry animations  
-
-🏆 Rank & Rewards Display  
-Player ranking with animation  
-Coins and time display  
-Delayed reveal for better UX  
-
-🎮 Interactive Actions  
-Share result functionality  
-“Play Again” and “How to Improve” buttons  
-Haptic feedback (on supported devices)  
-
-🎬 Smooth Animations  
-Micro-interactions across UI  
-Reanimated-powered performance  
-Shimmer button effect  
-Fluid transitions and motion  
-
----
-
-🛠️ Tech Stack  
-
-⚛️ React Native (Expo)  
-🎬 React Native Reanimated  
-📱 Expo APIs (Haptics, Share)  
-🎯 JavaScript / TypeScript  
-
----
-
-🚀 Getting Started  
-
-1️⃣ Install dependencies  
-npm install  
-
-2️⃣ Run the app  
-npx expo start  
-
-3️⃣ Run on device  
-Scan QR using Expo Go  
-
----
-
-📁 Project Structure  
-
-app/  
-├── index.tsx            # Main result screen  
-├── components/          # UI components  
-└── assets/              # Images and resources  
-
----
-
-💡 Design Highlights  
-
-Modern game-inspired UI  
-Clean typography and spacing  
-Animated feedback for every action  
-Balanced color palette with dark theme  
-High-performance animations  
-
----
-
-📌 Notes  
-
-Particle animations are custom-built using Reanimated  
-UI inspired by real gaming result screens  
-Fully frontend application (no backend required)  
-
----
-
-👩‍💻 Author  
-Harshitha Somu  
-
----
-
-✨ Final Thought  
-
-“Results shouldn’t just be seen — they should be felt.” 🎮🔥
+“Games are not just played — they are experienced.” 🎮🔥
